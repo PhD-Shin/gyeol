@@ -1,0 +1,16 @@
+# Obsidian
+.obsidian/
+
+# Smart Environment (Obsidian plugin)
+.smart-env/
+.smtcmp_json_db/
+.smtcmp_vector_db.tar.gz
+
+# Claude Code
+.claude/
+
+# OS files
+.DS_Store
+
+# Draft source (if needed to keep private)
+# master_draft_source.md
