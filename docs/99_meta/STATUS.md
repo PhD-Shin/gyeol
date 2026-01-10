@@ -82,7 +82,9 @@ related:
 - [x] MIDJOURNEY_PROMPTS.md
 
 ### 06_tracks (트랙)
-- [ ] 아직 트랙 문서 없음
+- [x] ALBUM_A1_HEUNDEULM.md — Album A-1 상세
+- [x] TRACK_PRODUCTION.md — 제작 진행 템플릿
+- [x] A1/A1-01_흔들림.md — 첫 번째 트랙
 
 ### 99_meta (메타)
 - [x] GLOSSARY.md

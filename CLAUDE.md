@@ -18,30 +18,32 @@
 
 ## 문서 계층 존중 규칙
 
-### 🔒 Immutable (불변) — `docs/immutable/`
+### 🔒 Immutable (불변) — `docs/00_core/`, `docs/01_world/`, `docs/02_style/`, `docs/03_characters/`
 
 **절대 수정 금지** (사용자 명시적 승인 없이)
 
-| 파일 | 내용 |
+| 폴더 | 내용 |
 |------|------|
-| `BIBLE_WORLD.md` | 세계관 정의, 금지 규칙 |
-| `STYLE_GUIDE_VISUAL.md` | 비주얼 규칙 |
-| `STYLE_GUIDE_AUDIO.md` | 오디오 규칙 |
-| `CHARACTER_BIBLE.md` | 캐릭터 기능 정의 |
+| `00_core/` | MANIFESTO.md, DEFINITION.md |
+| `01_world/` | RULES.md, THEMES.md, PROHIBITIONS.md, TONE.md |
+| `02_style/` | VISUAL_*.md, AUDIO_*.md (10개 파일) |
+| `03_characters/` | DOKKAEBI.md, HAETAE.md, TAL.md, HUMAN.md, INTERACTIONS.md |
 
 이 파일들의 `locked: true` 플래그를 확인하세요.
 수정 요청 시 **"이 문서는 불변 문서입니다. 정말 수정하시겠습니까?"**라고 확인하세요.
 
-### 📝 Variable (가변) — `docs/variable/`
+### 📝 Variable (가변) — `docs/04_strategy/`
 
 운영에 따라 수정 가능
 
 | 파일 | 내용 |
 |------|------|
 | `PHASE_MAP.md` | Phase 로드맵 |
+| `ALBUM_STRUCTURE.md` | 앨범 구조 |
 | `CHANNEL_LAUNCH.md` | 채널 런칭 정보 |
+| `CONTENT_FUNNEL.md` | 콘텐츠 퍼널 |
 
-### ⚙️ Execution (실행) — `docs/execution/`
+### ⚙️ Execution (실행) — `docs/05_execution/`
 
 자유롭게 수정/확장 가능
 
@@ -49,8 +51,10 @@
 |------|------|
 | `TRACK_TEMPLATE.md` | 트랙 제작 템플릿 |
 | `QC_CHECKLIST.md` | 품질 검사표 |
+| `SUNO_PROMPTS.md` | Suno 프롬프트 가이드 |
+| `MIDJOURNEY_PROMPTS.md` | 비주얼 프롬프트 가이드 |
 
-### 🎵 Tracks — `docs/tracks/`
+### 🎵 Tracks — `docs/06_tracks/`
 
 각 트랙별 제작 문서 (자유롭게 생성/수정)
 
@@ -141,8 +145,8 @@ BIBLE_WORLD.md의 "정전 문장" 섹션에 한 문장 추가해줘
 ### 새 트랙 문서 생성
 
 ```
-TRACK_TEMPLATE.md를 복사하여
-docs/tracks/[트랙명].md로 저장하고
+05_execution/TRACK_TEMPLATE.md를 복사하여
+docs/06_tracks/[앨범]/[트랙번호]_[트랙명].md로 저장하고
 기본 정보를 채워주세요.
 ```
 
@@ -174,8 +178,9 @@ PHASE_MAP.md의 [Phase X] 섹션을 업데이트해주세요.
 [파일 경로]
 
 참고할 문서:
-- docs/immutable/BIBLE_WORLD.md
-- docs/immutable/STYLE_GUIDE_VISUAL.md
+- docs/00_core/MANIFESTO.md
+- docs/01_world/RULES.md
+- docs/02_style/VISUAL_COLOR.md
 ```
 
 ### 새 트랙 기획 시
@@ -185,10 +190,10 @@ PHASE_MAP.md의 [Phase X] 섹션을 업데이트해주세요.
 Phase: [A/B/C/0]
 
 다음 문서를 참고하여 TRACK_TEMPLATE을 채워주세요:
-- docs/immutable/BIBLE_WORLD.md
-- docs/immutable/STYLE_GUIDE_AUDIO.md
-- docs/immutable/CHARACTER_BIBLE.md
-- docs/variable/PHASE_MAP.md
+- docs/00_core/MANIFESTO.md
+- docs/02_style/AUDIO_CORE.md
+- docs/03_characters/ (관련 존재 문서)
+- docs/04_strategy/PHASE_MAP.md
 ```
 
 ---

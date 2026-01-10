@@ -76,7 +76,9 @@ docs/
 │   └── SUNO_PROMPTS.md       ← Suno 프롬프트 가이드
 │
 ├── 06_tracks/                ← 개별 트랙
-│   └── HEUNDEULM.md          ← 흔들림
+│   ├── ALBUM_A1_HEUNDEULM.md ← 앨범 A-1 상세
+│   └── A1/                   ← 앨범 A-1 트랙들
+│       └── A1-01_흔들림.md   ← 첫 번째 트랙
 │
 └── 99_meta/                  ← 메타 문서
     ├── GLOSSARY.md           ← 용어집

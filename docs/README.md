@@ -9,19 +9,50 @@
 ```
 docs/
 ├── README.md              ← 이 파일
-├── immutable/             ← 🔒 불변 문서 (수정 금지)
-│   ├── BIBLE_WORLD.md     ← 세계관 바이블
-│   ├── STYLE_GUIDE_VISUAL.md ← 비주얼 스타일 가이드
-│   ├── STYLE_GUIDE_AUDIO.md  ← 오디오 스타일 가이드
-│   └── CHARACTER_BIBLE.md    ← 캐릭터 바이블
-├── variable/              ← 📝 가변 문서 (운영에 따라 수정)
+├── PRD.md                 ← 프로젝트 요약 (진입점)
+├── PROCESS.md             ← 제작 프로세스
+├── INDEX.md               ← 전체 인덱스
+│
+├── 00_core/               ← 📌 핵심 정의 (불변)
+│   ├── MANIFESTO.md       ← 선언문
+│   └── DEFINITION.md      ← 결의 정의
+│
+├── 01_world/              ← 📌 세계관 규칙 (불변)
+│   ├── RULES.md           ← 5대 작동 규칙
+│   ├── THEMES.md          ← 메타 테마
+│   ├── PROHIBITIONS.md    ← 금지 규칙
+│   └── TONE.md            ← 톤 가이드
+│
+├── 02_style/              ← 📌 스타일 가이드 (불변)
+│   ├── VISUAL_*.md        ← 비주얼 규칙 (6개)
+│   └── AUDIO_*.md         ← 오디오 규칙 (4개)
+│
+├── 03_characters/         ← 📌 존재 정의 (불변)
+│   ├── DOKKAEBI.md        ← 도깨비
+│   ├── HAETAE.md          ← 해태
+│   ├── TAL.md             ← 탈
+│   ├── HUMAN.md           ← 인물
+│   └── INTERACTIONS.md    ← 상호작용
+│
+├── 04_strategy/           ← 📋 운영 전략 (가변)
 │   ├── PHASE_MAP.md       ← Phase 로드맵
-│   └── CHANNEL_LAUNCH.md  ← 채널 런칭 가이드
-├── execution/             ← ⚙️ 실행 문서 (자유롭게 수정)
-│   ├── TRACK_TEMPLATE.md  ← 트랙 제작 템플릿
-│   └── QC_CHECKLIST.md    ← 품질 검사표
-└── tracks/                ← 🎵 트랙별 제작 문서
-    └── (각 트랙 문서)
+│   ├── ALBUM_STRUCTURE.md ← 앨범 구조
+│   ├── CHANNEL_LAUNCH.md  ← 채널 런칭
+│   └── CONTENT_FUNNEL.md  ← 콘텐츠 퍼널
+│
+├── 05_execution/          ← ⚡ 실행 도구 (자유)
+│   ├── TRACK_TEMPLATE.md  ← 트랙 템플릿
+│   ├── QC_CHECKLIST.md    ← QC 체크리스트
+│   ├── SUNO_PROMPTS.md    ← Suno 가이드
+│   └── MIDJOURNEY_PROMPTS.md ← 비주얼 가이드
+│
+├── 06_tracks/             ← ⚡ 트랙별 문서
+│   └── A1/                ← 앨범별 폴더
+│
+└── 99_meta/               ← 📦 메타 문서
+    ├── GLOSSARY.md        ← 용어집
+    ├── CHANGELOG.md       ← 변경 기록
+    └── STATUS.md          ← 현황
 ```
 
 ---

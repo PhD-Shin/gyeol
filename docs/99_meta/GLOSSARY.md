@@ -47,8 +47,8 @@ related:
 
 ## ㄴ
 
-### 남색 (Nam Blue)
-#1a237e. 결의 주조색 중 하나. 깊은 밤하늘 색.
+### 인디고 (Indigo)
+#2c3e50. 결의 보조색. 깊은 남색.
 → [[02_style/VISUAL_COLOR]]
 
 ---
