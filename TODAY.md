@@ -59,6 +59,40 @@ dark korean fantasy trap pansori fusion, 110 bpm Am, dreamy ethereal pads verses
 
 ---
 
+## 🔥 120 BPM 팝 버전 (들썩들썩)
+
+> **차이점**: 더 빠르고, 더 바운시하고, 더 캐치한 K-pop 느낌
+> **비교**: 110 BPM (무거운 트랩) vs 120 BPM (팝 에너지)
+
+---
+
+#### 🅳 Style D — 120 BPM 판소리 팝
+
+**Style of Music 복사:**
+```
+korean pansori pop trap fusion, 120 bpm Am, bouncy catchy synth hooks, pansori chang shout first 3 seconds chuimsae, upbeat groovy verses, head-nodding rhythm, haegeum catchy melodic hook, gayageum bright stabs, janggu bouncy 808, energetic korean vocals pitch bending, aniri rap flow, dance pop energy, [Intro] pansori shout chuimsae 808 haegeum explosion 3s silence 2s, [Verse] bouncy synth aniri storytelling 16s, [PreChorus] orchestral swell building catchy 10s, [Drop] chang jajinmori 808 gayageum explosive bouncy 20s, [Verse2] groovy space whisper 12s, [PreChorus2] building intensity 8s, [Drop2] maximum dance energy 20s, [Bridge] haegeum melodic hook 4s, [Outro] catchy fade 4s
+```
+
+---
+
+#### 🅴 Style E — 120 BPM K-pop 댄스
+
+**Style of Music 복사:**
+```
+kpop dance korean trap fusion, 120 bpm Am, catchy synth hooks shimmering, explosive korean shout hook first 3 seconds, bouncy upbeat groove, head-nodding dance rhythm, haegeum catchy texture, punchy strings, bouncy 808 bass, energetic vocals catchy melody, rap verses flow, dance pop kpop energy, [Intro] explosive korean shout 808 string hit 3s silence 2s, [Verse] bouncy synth catchy flow 16s, [PreChorus] orchestral swell strings building 10s, [Drop] explosive bouncy rhythm 808 dance energy 20s, [Verse2] groovy whisper catchy 12s, [PreChorus2] building intensity 8s, [Drop2] overwhelming dance climax 20s, [Bridge] melodic hook pad 4s, [Outro] catchy atmospheric fade 4s
+```
+
+---
+
+#### 🅵 Style F — 120 BPM 하이브리드 팝
+
+**Style of Music 복사:**
+```
+korean fantasy pop trap pansori fusion, 120 bpm Am, bouncy catchy pads verses, korean shout hook first 3 seconds, upbeat groovy drops, jajinmori bouncy rhythm, haegeum catchy melodic signature, gayageum bright stabs, janggu 808 dance, energetic korean vocals catchy pitch bend, aniri rap bouncy flow, kpop dance atmosphere, [Intro] korean shout chuimsae 808 haegeum bouncy explosion 3s silence 2s, [Verse] bouncy synth aniri catchy 16s, [PreChorus] orchestral swell groovy building 10s, [Drop] chang jajinmori 808 gayageum bouncy explosive 20s, [Verse2] groovy whisper 12s, [PreChorus2] intensity building catchy 8s, [Drop2] maximum dance climax 20s, [Bridge] haegeum catchy hook 4s, [Outro] bouncy fade 4s
+```
+
+---
+
 #### Lyrics 복사 (v3 — K-pop 코드스위칭 + 현대 추임새):
 
 > **코드스위칭 원칙**: 같은 의미 반복 ❌ → 영어+한국어가 **연결/확장**
@@ -136,15 +170,24 @@ Break it down 먼지만 남아
 
 #### 작업 순서:
 
-- [ ] 1. Suno 접속
-- [ ] 2. **Style A** 4개 생성
-- [ ] 3. **Style B** 4개 생성
-- [ ] 4. **Style C** 4개 생성
-- [ ] 5. 1차 스크리닝: 12개 → 6개
-- [ ] 6. **첫 3초 훅 테스트** (필수)
-- [ ] 7. 2차 스크리닝: 6개 → 3개
-- [ ] 8. **최종 1개 확정** ★
-- [ ] 9. `assets/work/A1-01/music/` 저장
+**110 BPM (다크 트랩):**
+- [x] 1. Suno 접속
+- [x] 2. **Style A** 4개 생성
+- [x] 3. **Style B** 4개 생성
+- [x] 4. **Style C** 4개 생성
+
+**120 BPM (팝 에너지):**
+- [ ] 5. **Style D** 4개 생성
+- [ ] 6. **Style E** 4개 생성
+- [ ] 7. **Style F** 4개 생성
+
+**선별:**
+- [ ] 8. 1차 스크리닝: 24개 → 8개
+- [ ] 9. **첫 3초 훅 테스트** (필수)
+- [ ] 10. 2차 스크리닝: 8개 → 3개
+- [ ] 11. **110 vs 120 BPM 최종 비교** ★
+- [ ] 12. **최종 1개 확정** ★
+- [ ] 13. `assets/work/A1-01/music/` 저장
 
 #### 선별 기준 (프로듀서 군단 합의):
 
@@ -225,7 +268,14 @@ Break it down 먼지만 남아
 - 프로젝트명("결") 언급 ❌
 - **분위기만** — 어둠, 긴장, 움직임, 압박
 - 짧고 임팩트 있는 문장
-- 110 BPM — 느리지 않게
+
+## ⚖️ BPM 비교 기준
+
+| 항목 | 110 BPM (A/B/C) | 120 BPM (D/E/F) |
+|------|-----------------|-----------------|
+| 느낌 | 무거운 트랩 | 들썩 K-pop |
+| 장점 | 깊이, 분위기 | 에너지, 캐치 |
+| 타겟 | 분위기 중시 | 대중성 중시 |
 
 ---
 
