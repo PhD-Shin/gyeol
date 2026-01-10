@@ -10,7 +10,11 @@ tags: [style, visual, lighting]
 related:
   - "[[02_style/VISUAL_COLOR]]"
   - "[[02_style/VISUAL_CAMERA]]"
+  - "[[02_style/VISUAL_COMPOSITION]]"
+  - "[[02_style/VISUAL_TEXTURE]]"
   - "[[01_world/TONE]]"
+  - "[[01_world/PROHIBITIONS]]"
+  - "[[05_execution/MIDJOURNEY_PROMPTS]]"
 ---
 
 # VISUAL_LIGHT — 조명 규칙

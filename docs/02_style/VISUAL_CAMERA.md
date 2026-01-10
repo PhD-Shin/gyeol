@@ -10,6 +10,10 @@ tags: [style, visual, camera, composition]
 related:
   - "[[02_style/VISUAL_EDIT]]"
   - "[[02_style/VISUAL_LIGHT]]"
+  - "[[02_style/VISUAL_COMPOSITION]]"
+  - "[[01_world/TONE]]"
+  - "[[01_world/PROHIBITIONS]]"
+  - "[[05_execution/MIDJOURNEY_PROMPTS]]"
 ---
 
 # VISUAL_CAMERA — 카메라 규칙

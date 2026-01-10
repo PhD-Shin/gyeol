@@ -9,7 +9,11 @@ use_when: "비주얼 제작 시, AI 도구 선택 시, 샷 라이브러리 구�
 tags: [style, visual, pipeline, ai, midjourney, sora]
 related:
   - "[[02_style/VISUAL_EDIT]]"
+  - "[[02_style/VISUAL_COLOR]]"
+  - "[[02_style/VISUAL_TEXTURE]]"
   - "[[05_execution/TRACK_TEMPLATE]]"
+  - "[[05_execution/MIDJOURNEY_PROMPTS]]"
+  - "[[01_world/TONE]]"
   - "[[PROCESS]]"
 ---
 

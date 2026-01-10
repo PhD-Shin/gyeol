@@ -10,7 +10,11 @@ tags: [style, visual, editing, rhythm]
 related:
   - "[[02_style/VISUAL_CAMERA]]"
   - "[[02_style/VISUAL_PIPELINE]]"
+  - "[[02_style/VISUAL_LIGHT]]"
   - "[[02_style/AUDIO_CORE]]"
+  - "[[02_style/AUDIO_STRUCTURE]]"
+  - "[[01_world/TONE]]"
+  - "[[01_world/PROHIBITIONS]]"
 ---
 
 # VISUAL_EDIT — 편집 규칙

@@ -10,7 +10,11 @@ tags: [style, audio, structure, kpop]
 related:
   - "[[02_style/AUDIO_CORE]]"
   - "[[02_style/AUDIO_INSTRUMENTS]]"
+  - "[[02_style/AUDIO_VOCAL]]"
   - "[[02_style/VISUAL_EDIT]]"
+  - "[[01_world/RULES]]"
+  - "[[01_world/THEMES]]"
+  - "[[05_execution/SUNO_PROMPTS]]"
 ---
 
 # AUDIO_STRUCTURE — 곡 구조
@@ -26,6 +30,54 @@ related:
 
 > **K-pop은 "한국 음악"이 아니라
 > 장르 혼합 + 강한 시각성 + 퍼포먼스 중심 구조다.**
+
+---
+
+## 🔥 초반 후킹 필수 규칙 (0-5초)
+
+> **무명 채널의 생존 법칙:**
+> 유튜브에서 시청자는 5초 안에 떠날지 결정한다.
+> 첫 5초가 전부다.
+
+### 후킹 타임라인
+
+| 시간 | 필수 요소 | 설명 |
+|------|----------|------|
+| **0-2초** | **귀를 잡는 소리** | 예상 밖의 사운드, 가야금 꺾임, 글리치, 저음 펀치 |
+| **2-5초** | **패턴 확립** | 리듬/멜로디 훅 시작, "이게 뭐지?" 유발 |
+| **5-15초** | **세계관 진입** | 분위기 확립, 기존 Intro 역할 |
+
+### 후킹 필수 기법 (최소 1개 선택)
+
+| 기법 | 설명 | 예시 |
+|------|------|------|
+| **Sound Punch** | 첫 박에 강한 임팩트 | 808 킥 + 가야금 스트라이크 |
+| **Unexpected Texture** | 예상 밖의 소리 | 한지 찢는 소리, 태평소 꺾임 |
+| **Vocal Hook First** | 보컬 훅으로 시작 | 속삭임 또는 보컬 찹 |
+| **Rhythm Lock** | 중독성 리듬 즉시 시작 | 장구 패턴 + 808 |
+| **Drop Tease** | Drop 요소 미리 제시 | Drop의 핵심 사운드 1-2초 |
+
+### 쇼츠/롱폼 대응
+
+| 포맷 | 후킹 전략 |
+|------|----------|
+| **Shorts (60초)** | 0초부터 훅, Intro 생략, 바로 Drop 진입 가능 |
+| **Long-form (3분+)** | 0-5초 후킹 후 15초까지 Intro 가능 |
+
+### 금지
+
+| 금지 | 이유 |
+|------|------|
+| 느린 앰비언트로 시작 ❌ | 5초 안에 이탈 |
+| 페이드 인 ❌ | 임팩트 없음 |
+| 설명적 인트로 ❌ | 유튜브는 기다려주지 않음 |
+
+### Suno 프롬프트 추가 키워드
+
+```
+immediate hook, punchy intro, attention-grabbing first 5 seconds,
+strong opening, instant impact, no fade in, front-loaded energy
+```
 
 ---
 

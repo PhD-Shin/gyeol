@@ -39,6 +39,7 @@ related:
 |------|----------|
 | **System vs Deviation** | 시스템 안에서 인간은 어떻게 어긋나는가? |
 | **Erasure (지움)** | 무엇이 사라지고, 무엇이 남는가? |
+| **Han vs Heung (한과 흥)** | 억압은 어떻게 폭발하는가? |
 
 ### 파생 테마 (Derived Themes) — Phase별 강조
 
@@ -48,6 +49,11 @@ related:
 | **Name (이름)** | 이름 없는 존재들 | 탈, 실루엣 인물 |
 | **Record (기록)** | 흔적, 자국, 남겨진 것 | 지도, 도장, 흔적 |
 | **Ritual (의례)** | 반복되는 동작, 형식 | 행렬, 굿, 춤 |
+| **Haehak (해학)** | 억압이 폭발한 웃음, 풍자 | 탈의 비틀린 미소, 굿판의 광기 |
+| **Dystopia (디스토피아)** | AI/시스템이 지배하는 세계 | 네온 한옥, 장승 로봇, 감시 |
+| **Jeong (정)** | 끊어도 남는 것, 미련 | 돌아서는 뒷모습, 남겨진 흔적 |
+| **Nunchi (눈치)** | 말하지 않아도 아는 압박 | 탈 군중의 시선, 침묵의 압력 |
+| **Bballi (빨리빨리)** | 멈출 수 없는 속도 속 정지 | 광속의 멈춤, 질주 중 얼어붙음 |
 
 ---
 
@@ -140,6 +146,144 @@ related:
 
 ---
 
+### Han vs Heung (한과 흥)
+
+억압된 한(恨)은 결국 흥(興)으로 폭발한다.
+- 한 = 축적된 억압, 말하지 못한 것, 지워진 것
+- 흥 = 폭발, 해방, 굿판의 광기
+- 이 순환이 결의 동력이다
+
+**한의 표현:**
+- 멈춤, 침묵, 뒤돌아선 자
+- 무거운 저음, 느린 템포
+- 안개, 먹 번짐, 지워지는 경계
+
+**흥의 표현:**
+- 굿판, 집단 춤, 작두 타기
+- 리듬 폭발, 타악기 전면
+- 탈 군중의 동시 움직임
+
+**순환 구조:**
+```
+한(축적) → 정점 → 흥(폭발) → 지움 → 한(축적)
+```
+
+> **핵심**: 한과 흥은 대립이 아니라 **순환**이다.
+
+---
+
+### Haehak (해학)
+
+슬픔을 웃음으로 승화한다.
+- 울지 않는다, 비튼다
+- 슬픔을 직접 표현하지 않는다
+- 탈의 미소는 기쁨이 아니다
+
+**표현 방법:**
+- 비뚤어진 입 (초랭이탈, 이매탈)
+- 굿판의 광기 어린 춤
+- 상황과 어긋난 음악 (슬픈 장면 + 빠른 리듬)
+- 코믹하지 않은 부조리
+
+**해학의 규칙:**
+- 웃기려 하지 않는다
+- 관객이 "웃어야 하나?" 혼란을 느껴야 성공
+- 풍자의 대상은 명시하지 않는다
+
+---
+
+### Dystopia (디스토피아)
+
+AI/알고리즘이 지배하는 도시.
+- 완벽한 시스템, 완벽한 반복
+- 인간은 탈을 쓰고 역할만 수행
+- 어긋남은 glitch, 오류, 버그
+
+**시각적 표현:**
+- 네온 한옥 — 기와 처마에 네온 라인
+- 단청 = 회로 — PCB처럼 보이는 단청 무늬
+- 장승 로봇 — 경계를 지키는 기계화된 수호
+- 사이보그 무당 — 인간과 기계의 경계
+
+**청각적 표현:**
+- 글리치 사운드
+- 기계음 + 국악 악기
+- 정확한 BPM (시스템) vs 미세한 어긋남 (인간)
+
+**디스토피아의 규칙:**
+- 디스토피아를 "나쁘다"고 판단하지 않는다
+- 시스템은 그냥 존재한다
+- 인간은 그 안에서 결을 따를 뿐
+
+---
+
+### Jeong (정)
+
+끊어도 남는 것. 미련.
+- 처음부터 쿨한 게 아니다
+- **원래 가까웠던 것의 단절**
+- 끊어졌지만 아직 끝나지 않은 감정
+
+**표현 방법:**
+- 돌아서는 뒷모습 (하지만 완전히 떠나지 않음)
+- 남겨진 물건, 흔적
+- 손이 닿을 듯 말 듯
+- 두 인물 사이의 거리 (좁혀지지도, 벌어지지도 않음)
+
+**정과 한의 관계:**
+```
+정(관계) → 단절 → 한(축적) → 흥(폭발)
+```
+
+> **핵심**: 결의 쿨함은 **초연함이 아니라 단절의 서늘함**
+
+---
+
+### Nunchi (눈치)
+
+말하지 않아도 아는 것. 암묵적 압박.
+- 직접 말하지 않는다
+- 그래도 모두 안다
+- 시선만으로 압박한다
+
+**표현 방법:**
+- 탈 군중의 **일제 시선**
+- 침묵 속의 긴장
+- 아무도 말하지 않지만 **무언가 요구됨**
+- 눈치 보는 인물의 멈춤
+
+**눈치와 시스템:**
+- 시스템은 명령하지 않는다
+- 그냥 **지켜본다**
+- 인간은 스스로 맞춘다
+- 이것이 진짜 억압
+
+> **핵심**: 결의 시스템은 **명령이 아니라 시선**으로 지배한다
+
+---
+
+### Bballi-bballi (빨리빨리)
+
+멈출 수 없는 속도. 그 안의 정지.
+- 모든 것이 빠르다
+- 멈추면 뒤처진다
+- **빠름 속에서 얼어붙는 순간**
+
+**표현 방법:**
+- 빠른 편집 → 갑자기 정지 (프리즈 프레임)
+- 주변은 흐르는데 한 인물만 멈춤
+- 시간이 다르게 흐르는 공간
+- 질주하다 쓰러짐 (완결 없이)
+
+**빨리빨리와 한:**
+```
+빨리빨리(속도) → 뒤처짐 → 한(축적) → 폭발 or 정지
+```
+
+> **핵심**: KageBow가 **느린 명상**이라면, 결은 **광속의 정지**
+
+---
+
 ## Phase별 테마 강조
 
 | Phase | 강조 테마 | 음악 표현 | 시각 표현 |
@@ -163,6 +307,12 @@ related:
 | Name | `faceless figure, masked crowd, anonymous, identity hidden` |
 | Record | `ancient map, seal stamp, footprints, traces, worn document` |
 | Ritual | `procession, repeated motion, ceremonial, synchronized movement` |
+| Han vs Heung | `suppressed emotion, explosive release, gut ritual, collective frenzy` |
+| Haehak | `sardonic smile, twisted humor, absurd contrast, mask grin` |
+| Dystopia | `neon hanok, circuit dancheong, jangseung robot, cyberpunk joseon, surveillance` |
+| Jeong | `turning back, lingering presence, almost touching, emotional distance, severance` |
+| Nunchi | `collective gaze, silent pressure, watching crowd, unspoken expectation` |
+| Bballi | `frozen in motion, speed blur with stillness, time stop, rushing then freeze` |
 
 ---
 
@@ -176,6 +326,12 @@ related:
 | Name | `whispered fragments, anonymous voices, vocal texture` |
 | Record | `distant sounds, echoes of past, layered memories` |
 | Ritual | `repetitive pattern, ceremonial drums, hypnotic loop` |
+| Han vs Heung | `heavy drone to percussion explosion, gut ceremony beat, collective stomp` |
+| Haehak | `dissonant melody with upbeat rhythm, twisted folk, sardonic tone` |
+| Dystopia | `glitch beats, synth with gayageum, mechanical rhythm, electronic shamanism` |
+| Jeong | `lingering melody, unresolved chord, bittersweet sustain, fading connection` |
+| Nunchi | `silent tension, breath sounds, subtle percussion, watching beat` |
+| Bballi | `fast tempo sudden stop, rushing rhythm freeze, speed to silence` |
 
 ---
 

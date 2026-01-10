@@ -9,7 +9,11 @@ use_when: "앨범 기획 시, 트랙 배치 결정 시"
 tags: [strategy, album, structure, planning]
 related:
   - "[[04_strategy/PHASE_MAP]]"
+  - "[[01_world/RULES]]"
   - "[[01_world/THEMES]]"
+  - "[[02_style/AUDIO_CORE]]"
+  - "[[05_execution/SUNO_PROMPTS]]"
+  - "[[05_execution/TRACK_TEMPLATE]]"
   - "[[06_tracks/]]"
 ---
 

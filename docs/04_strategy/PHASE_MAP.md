@@ -10,7 +10,11 @@ tags: [strategy, phase, roadmap, planning]
 related:
   - "[[04_strategy/CHANNEL_LAUNCH]]"
   - "[[04_strategy/CONTENT_FUNNEL]]"
+  - "[[04_strategy/ALBUM_STRUCTURE]]"
+  - "[[01_world/RULES]]"
+  - "[[01_world/THEMES]]"
   - "[[01_world/PROHIBITIONS]]"
+  - "[[02_style/AUDIO_CORE]]"
 ---
  
 # PHASE_MAP — Phase 로드맵

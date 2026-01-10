@@ -2,8 +2,8 @@
 title: "GYEOL Suno Prompts"
 type: execution
 locked: false
-version: 2.0
-last_updated: 2025-01-10
+version: 3.1
+last_updated: 2025-01-11
 description: "결 Suno AI 음악 생성 프롬프트 가이드. 48트랙 전곡 MV용."
 use_when: "Suno로 음악 생성할 때, 프롬프트 작성 시"
 tags: [execution, suno, ai, prompts, audio]
@@ -11,6 +11,9 @@ related:
   - "[[02_style/AUDIO_CORE]]"
   - "[[02_style/AUDIO_INSTRUMENTS]]"
   - "[[02_style/AUDIO_STRUCTURE]]"
+  - "[[02_style/AUDIO_VOCAL]]"
+  - "[[01_world/RULES]]"
+  - "[[01_world/THEMES]]"
   - "[[04_strategy/ALBUM_STRUCTURE]]"
 ---
 
@@ -20,6 +23,38 @@ related:
 > - Suno로 음악을 생성할 때
 > - 프롬프트를 작성할 때
 > - 결 스타일 음악을 만들 때
+
+---
+
+## 핵심 규격 (v3.1)
+
+| 항목 | 규격 |
+|------|------|
+| **BPM** | 95-110 |
+| **Key** | 마이너 권장 (Am, Em, Dm) |
+| **길이** | Suno가 랜덤 생성 (구조 힌트로 유도) |
+| **프롬프트 길이** | 영문 500자 내외 |
+| **보컬 성별** | 명시 필수 (male/female) |
+
+---
+
+## 프롬프트 구조 (500자 템플릿)
+
+### 🔥 핵심: 간결하게, 구조 힌트 포함
+
+```
+[Style of Music] - 약 500 English characters
+
+[장르], [전통악기], [BPM] [Key], [분위기],
+[보컬 스타일], [프로덕션 특징],
+[Intro] 설명, [Verse] 설명, [Drop] 설명, [Outro] 설명
+```
+
+### 500자 예시
+
+```
+dark atmospheric trap, korean traditional fusion, 95 bpm Am, haunting gayageum intro, 808 sub bass, janggu percussion, whispered male vocals korean, cold detached, heavy reverb delay, [Intro] gayageum solo drone 30s, [Verse1] sparse 808 30s, [PreChorus] janggu synths tension 20s, [Drop] full trap 808 heavy gayageum 35s, [Verse2] pulled back 25s, [Drop2] maximum energy 30s, [Bridge] silence 10s, [Outro] gayageum fading 25s
+```
 
 ---
 
@@ -41,10 +76,32 @@ Suno 프롬프트 = 장르 + 악기 + 분위기 + 보컬 + 구조
 
 ### 장르/스타일
 
+> **"dark k-pop"은 Suno에서 잘 인식되지 않음**
+> 대신 인식 가능한 장르들을 조합하여 결의 사운드를 구현
+
+#### Primary (핵심 — 항상 포함)
 ```
-dark k-pop, trap, hyperpop,
-experimental electronic, cinematic,
-industrial, ambient, minimal techno
+trap, korean fusion, atmospheric electronic
+```
+
+#### Secondary (보조 — 상황에 따라 선택)
+```
+industrial, hyperpop, experimental,
+ambient, cinematic, minimal techno,
+glitch, dark ambient
+```
+
+#### Korean Elements (한국적 요소)
+```
+korean traditional fusion, pansori influenced,
+gugak electronic, jangdan rhythm
+```
+
+#### 조합 예시
+```
+atmospheric trap, korean traditional fusion, industrial electronic
+experimental electronic, korean fusion, dark ambient, hypnotic
+trap, gugak electronic, cinematic, ritualistic
 ```
 
 ### 전통 악기
@@ -79,6 +136,196 @@ vocal chops, processed voice,
 not narrative, not emotional,
 voice as texture, layered vocals,
 korean words as texture not lyrics
+```
+
+---
+
+## 🔥 K-판소리 판타지 트랩 (K-Pansori Fantasy Trap)
+
+> **프로듀서 군단 승인 완료** — Top 10 프로듀서 리뷰 반영
+> **핵심 공식**: 판타지 팝 접근성 + 판소리 트랩 정체성 (7:3)
+
+### 핵심 키워드
+
+| 카테고리 | 키워드 |
+|---------|--------|
+| **장르** | `dark korean pansori fantasy trap fusion` |
+| **장단** | `jajinmori jangdan`, `jungjoongmori groove` |
+| **발성** | `pansori chang shout`, `aniri storytelling rap`, `chuimsae` |
+| **악기** | `haegeum haunting melodic`, `gayageum sharp stabs`, `janggu layered 808` |
+| **분위기** | `dreamy ethereal`, `cinematic atmosphere`, `orchestral swells` |
+| **보컬** | `raw emotional korean vocals pitch bending guttural` |
+
+### A/B/C 테스트 시스템
+
+> 모든 트랙에서 3가지 버전 생성 후 선별
+
+| 버전 | 특징 | 용도 | 키워드 강조 |
+|------|------|------|------------|
+| **Style A** | 판소리 강조 | 정체성 테스트 | `pansori`, `chang`, `jangdan` |
+| **Style B** | 판타지 팝 강조 | 접근성 테스트 | `fantasy pop`, `orchestral`, `ethereal` |
+| **Style C** | 하이브리드 | 균형 테스트 | A+B 혼합 |
+
+### 선별 기준 (가중치)
+
+| 순위 | 기준 | 가중치 |
+|------|------|--------|
+| 1 | **첫 3초 훅 임팩트** | 30% |
+| 2 | **해금 존재감** | 20% |
+| 3 | **몽환↔폭발 대비** | 20% |
+| 4 | **보컬 스타일** | 15% |
+| 5 | **전체 밸런스** | 15% |
+
+### 구조 타임라인 (2:00 기준)
+
+```
+[Intro] 0:00-0:05 — 폭발 훅 (첫 3초) + 침묵
+[Verse] 0:05-0:23 — Dreamy ethereal 아니리
+[Pre-Chorus] 0:23-0:33 — 오케스트라 스웰 + 추임새
+[Drop] 0:33-0:55 — 창 + 자진모리 + 808 폭발
+[Verse2] 0:55-1:07 — Ethereal whisper
+[Pre-Chorus2] 1:07-1:15 — 빌드업 + 추임새
+[Drop2] 1:15-1:37 — 최대 에너지
+[Bridge] 1:37-1:40 — 해금 + 패드
+[Outro] 1:40-1:45 — Dreamy fade
+```
+
+---
+
+## 추임새 (Chuimsae) 가이드
+
+> **정의**: 판소리의 청중 추임새를 훅/퍼포먼스 요소로 활용
+> **원칙**: 훅 폭발점, Pre-Chorus, Drop 끝에 배치
+
+### 1. 전통 추임새 (Traditional)
+
+| 추임새 | 발음 | 느낌 | 사용 |
+|--------|------|------|------|
+| **얼쑤** | eol-ssu | 폭발, 환호 | Intro 훅, Drop 시작 |
+| **좋다** | joh-da | 만족, 확인 | Drop 후, Pre-Chorus |
+| **그렇지** | geu-reo-ji | 동의, 강조 | Drop 중간, 빌드업 후 |
+
+### 2. 현대 추임새 (Modern K-Pansori)
+
+| 추임새 | 발음 | 느낌 | 사용 |
+|--------|------|------|------|
+| **가자** | ga-ja | 출발, 전진 | Drop 끝, 전환점 |
+| **간다** | gan-da | 돌진, 에너지 | Pre-Chorus, 빌드업 |
+
+### 3. 하이브리드 추임새 (English-Korean)
+
+| 하이브리드 | 사용 | 효과 |
+|-----------|------|------|
+| **Let's go 가자** | Drop 끝 | 전진 + 글로벌 |
+| **Yeah 좋다** | Drop 후 | 만족 + 트랩 느낌 |
+
+### 가사 배치 규칙
+
+```
+[Intro]
+훅 구절!
+얼쑤—
+
+[Pre-Chorus]
+빌드업 구절
+Yeah 좋다—
+
+[Drop]
+훅 반복
+얼쑤!
+펀치 구절
+그렇지— 가자
+
+[Drop 2]
+훅 반복
+얼쑤!
+클라이맥스 구절
+Yeah 좋다—
+```
+
+---
+
+## 코드스위칭 (Code-Switching) 전략
+
+> **핵심 원칙**: 같은 의미 반복 ❌ → 영어+한국어가 **연결/확장**
+> **K-pop 스타일**: 영어 구절 → 한국어가 다른 내용으로 이어짐
+
+### K-pop 코드스위칭 유형
+
+| 유형 | 설명 | 예시 |
+|------|------|------|
+| **Intra-sentential** | 한 문장 안에서 전환 | "Darkness coming 눈을 떠" |
+| **Inter-sentential** | 문장 간 전환 (다른 의미) | "Let it burn / 재만 남아" |
+| **Tag-switching** | 감탄사/추임새로 전환 | "좋다—", "deeper now" |
+
+### ❌ 피해야 할 패턴 (같은 의미 반복)
+
+```
+❌ Can't stop 멈출 수 없어     ← 같은 의미!
+❌ Burn it all 다 태워버려     ← 같은 의미!
+❌ Break it all 다 부숴버려    ← 같은 의미!
+```
+
+### ⭕ 올바른 패턴 (연결/확장)
+
+**Pattern A: 연결 (원인→결과)**
+```
+Let it burn 재만 남아         ← burn → ashes (결과)
+Break it down 먼지만 남아     ← break → dust (결과)
+```
+
+**Pattern B: 확장 (상황→감각)**
+```
+Darkness coming 눈을 떠       ← darkness → open eyes
+숨이 막혀 I can feel it       ← can't breathe → feeling
+```
+
+**Pattern C: 이어짐 (시작→계속)**
+```
+Something changing 어둠 속에   ← changing → in darkness
+빠져들어 deeper now           ← falling → deeper
+```
+
+### 가사 예시 (v3)
+
+```
+[Verse]
+Darkness coming 눈을 떠       ← 어둠이 온다 + 눈을 떠 (연결)
+숨이 막혀 I can feel it       ← 숨막힘 + 느낌 (확장)
+Something changing 어둠 속에   ← 변화 + 장소 (이어짐)
+빠져들어 deeper now           ← 빠짐 + 깊이 (이어짐)
+
+[Drop]
+Let it burn 재만 남아         ← 태워라 + 결과 (연결)
+Let it burn 재만 남아
+얼쑤!                         ← 전통 추임새
+어둠 속에 ashes fall          ← 장소 + 결과 (연결)
+그렇지— 가자                  ← 전통 + 현대 추임새
+```
+
+---
+
+## A1-01 시작 프롬프트 (Reference)
+
+> **제목**: 시작 (SIJAK)
+> **BPM**: 110 | **Key**: Am | **길이**: 2:00
+
+### Style A — 판소리 강조 (698자)
+
+```
+dark korean pansori fantasy trap fusion, 110 bpm Am, dreamy ethereal synth pads on verses, pansori chang shout hook first 3 seconds chuimsae, orchestral swells before drops, jajinmori jangdan on drops, jungjoongmori groove verses, haegeum haunting melodic texture, gayageum sharp stabs, janggu layered 808, raw emotional korean vocals pitch bending guttural, aniri storytelling rap, vocal percussion texture, cinematic atmosphere, [Intro] pansori shout chuimsae 808 haegeum explosion 3s silence 2s, [Verse] dreamy synth aniri storytelling 18s, [PreChorus] orchestral swell building 10s, [Drop] chang jajinmori 808 gayageum explosive 22s, [Verse2] ethereal space whisper 12s, [PreChorus2] building intensity 8s, [Drop2] overwhelming maximum energy 22s, [Bridge] haegeum melodic drone 3s, [Outro] dreamy fade 5s
+```
+
+### Style B — 판타지 팝 강조 (695자)
+
+```
+dark fantasy pop korean trap fusion, 110 bpm Am, ethereal dreamy synth pads shimmering, explosive traditional korean shout hook first 3 seconds, cinematic orchestral swells before drops, fast traditional rhythm on drops, groovy mid-tempo verses, haegeum haunting melodic texture, string stabs, layered 808 bass, raw emotional vocals pitch bending, storytelling rap verses, atmospheric reverb, [Intro] explosive korean shout 808 string hit 3s silence 2s, [Verse] dreamy synth storytelling ethereal 18s, [PreChorus] orchestral swell strings building emotional 10s, [Drop] explosive fast rhythm 808 strings maximum energy 22s, [Verse2] ethereal space whisper floating 12s, [PreChorus2] building intensity dramatic 8s, [Drop2] overwhelming climax 22s, [Bridge] melodic drone emotional pad 3s, [Outro] dreamy atmospheric fade 5s
+```
+
+### Style C — 하이브리드 균형 (699자)
+
+```
+dark korean fantasy trap pansori fusion, 110 bpm Am, dreamy ethereal pads verses, korean traditional shout hook first 3 seconds, orchestral swells drops, jajinmori rhythm drops, groovy verses, haegeum melodic texture signature, gayageum stabs, janggu 808 layered, raw emotional korean vocals guttural pitch bend, aniri rap storytelling, vocal percussion layer subtle, cinematic dark atmosphere, [Intro] korean shout chuimsae 808 haegeum hit explosion 3s silence 2s, [Verse] dreamy synth aniri storytelling floating 18s, [PreChorus] orchestral swell emotional building 10s, [Drop] chang jajinmori 808 gayageum explosive energy 22s, [Verse2] ethereal whisper space 12s, [PreChorus2] intensity building 8s, [Drop2] maximum overwhelming climax 22s, [Bridge] haegeum drone pad 3s, [Outro] dreamy haegeum fade 5s
 ```
 
 ---
@@ -191,46 +438,92 @@ open ending, mysterious
 
 ---
 
-## 가사 포맷
+## 가사 포맷 (3분 기준)
 
-### Metatag 사용
+### 필수 출력 형식
+
+모든 Suno 프롬프트는 다음 3개 블록으로 출력:
 
 ```
-[Intro]
-(instrumental)
+### 제목
+[한글 제목] ([영문 제목])
 
-[Verse 1]
-흔들린다
-(whispered, repeated)
+### Style of Music (~500자)
+[프롬프트]
 
-[Pre-Chorus]
-멈추지 않아
-(building, layered)
+### Lyrics
+[가사]
+```
 
-[Drop]
-(vocal chops only)
+### 3분 곡 구조 템플릿
 
-[Break]
-(silence)
+```
+[Intro] ~30초
+(instrumental, mood setting)
 
-[Outro]
-사라진다
-(fading whisper)
+[Verse 1] ~30초
+[핵심 단어] 반복 3-4회
+(whispered, layered)
+[보조 구절]
+(spoken/distant)
+
+[Pre-Chorus] ~20초
+[빌드업 구절] 반복 3회
+(building intensity)
+
+[Drop] ~35초
+[훅 구절] chopped/rhythmic
+[보조 훅] 2회 반복
+(layered vocal chops)
+
+[Verse 2] ~25초
+[변형 단어] 반복
+(whispered)
+[새 구절]
+(fading)
+
+[Pre-Chorus 2] ~15초
+[빌드업 구절] 반복 2회
+(faster building)
+
+[Drop 2] ~30초
+[훅 구절] maximum energy
+[클라이맥스 구절]
+(overwhelming)
+
+[Bridge] ~10초
+(silence or minimal)
+
+[Outro] ~25초
+[핵심 단어]...
+(fading to silence)
 ```
 
 ### 가사 규칙
 
-1. **짧은 구절만**
-   - 2-4음절 반복
+1. **제목/정체성 언급 금지**
+   - 트랙 제목 가사에 반복 ❌
+   - 프로젝트명("결") 언급 ❌
+   - **분위기만 전달** ⭕
+
+2. **짧고 임팩트 있는 구절**
+   - 2-4음절
+   - 같은 단어 최대 2회 반복
    - 완전한 문장 ❌
 
-2. **한국어 텍스처**
+3. **긴장/압박 분위기**
+   - 명령형 ("눈을 떠", "숨을 참아")
+   - 질문형 ("느껴지냐")
+   - 상황 묘사 ("어둠이 움직여")
+
+4. **한국어 텍스처**
    - 의미 전달 목적 ❌
    - 사운드로 사용 ⭕
 
-3. **영어 최소화**
-   - 필요시 1-2단어만
-   - 설명적 영어 ❌
+5. **구조**
+   - Verse 2개 + Drop 2개 필수
+   - Drop은 chopped/rhythmic
+   - Bridge는 짧게 (5초 침묵)
 
 ---
 
@@ -463,13 +756,13 @@ PhaseB_Ambient_v01_250111
 
 | 앨범 | BPM | 키 | 특수 키워드 |
 |------|-----|-----|-----------|
-| A-1 흔들림 | 100-110 | Am/Em | `emerging tension, system, deviation begins` |
-| A-2 발현 | 105-115 | Em/Dm | `manifestation, presence grows, watching` |
-| B-1 대면 | 110-120 | Dm/Gm | `encounter, borders visible, confrontation` |
-| B-2 균형 | 100-115 | Gm/Am | `balance, tension held, equilibrium` |
-| C-1 흐림 | 90-100 | Cm/Fm | `blur, fading, traces, heavy memory` |
-| C-2 실 | 85-95 | Fm/Bbm | `thread, final record, weaving, closure` |
-| 0 기원 | 75-90 | Am/Bm | `primordial, origin, pure, before all` |
+| A-1 흔들림 | 110 | Am/Em | `emerging tension, system, deviation begins` |
+| A-2 발현 | 110 | Em/Dm | `manifestation, presence grows, watching` |
+| B-1 대면 | 110 | Dm/Gm | `encounter, borders visible, confrontation` |
+| B-2 균형 | 110 | Gm/Am | `balance, tension held, equilibrium` |
+| C-1 흐림 | 110 | Cm/Fm | `blur, fading, traces, heavy memory` |
+| C-2 실 | 110 | Fm/Bbm | `thread, final record, weaving, closure` |
+| 0 기원 | 110 | Am/Bm | `primordial, origin, pure, before all` |
 
 ### 8트랙 구조별 에너지 곡선
 
